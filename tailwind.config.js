@@ -7,7 +7,7 @@ module.exports = {
     extend: {
       fontFamily: {
         rubik: ['Rubik-Regular', 'sans-serif'],
-        "rubik-bold": ['Rubik-Regular', 'sans-serif'],
+        "rubik-bold": ['Rubik-Bold', 'sans-serif'],
         "rubik-extrabold": ['Rubik-ExtraBold', 'sans-serif'],
         "rubik-medium": ['Rubik-Medium', 'sans-serif'],
         "rubik-semibold": ['Rubik-SemiBold', 'sans-serif'],
@@ -16,8 +16,8 @@ module.exports = {
       colors: {
         "primary": {
           "100": '#0061FF0A',
-          "200": '0061FF1A',
-          "300": '0061FF'
+          "200": '#0061FF1A',
+          "300": '#0061FF'
 
         },
         accent: {
@@ -26,7 +26,7 @@ module.exports = {
         black: {
           DEFAULT: '#000000',
           100: '#8C8E98',
-          200: '666876',
+          200: '#666876',
           300: '#191d31'
         },
         danger: '#F75555'
