@@ -11,7 +11,7 @@ const TabIcon = ({ focused, icon, title }: { focused: boolean; icon: any; title:
         />
         <Text className={`${focused ?
             'text-primary-300 font-rubik-medium' :
-            'text-block-200 font-rubik'} text-sx w-full text-center mt-1`
+            'text-block-200 font-rubik'} text-xs w-full text-center mt-1`
         }>
             {title}
         </Text>
