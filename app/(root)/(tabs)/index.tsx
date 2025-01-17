@@ -1,4 +1,4 @@
-import { Text, View, Image, TouchableOpacity, FlatList} from "react-native"
+import { Text, View, Image, TouchableOpacity, FlatList, Button} from "react-native"
 import { Link } from 'expo-router'
 import { SafeAreaView } from "react-native-safe-area-context"
 import images from "@/constants/images"
@@ -42,7 +42,7 @@ export default function Index() {
                             </TouchableOpacity>
                         </View>
                         
-                            <FlatList data={[1, 2, 3]}
+                            <FlatList data={[5, 6, 7]}
                                 renderItem={({ item }) => <FeaturedCard />}
                                 keyExtractor={(item) => item.toString()}
                                 horizontal
